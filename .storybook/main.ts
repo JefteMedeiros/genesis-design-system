@@ -3,6 +3,7 @@ const config: StorybookConfig = {
   stories: [
     "../src/components/Button/*.stories.tsx",
     "../src/components/Input/*.stories.tsx",
+    "../src/components/ProgressBar/*.stories.tsx",
     "../src/pages/**/*.stories.mdx",
   ],
   addons: [
