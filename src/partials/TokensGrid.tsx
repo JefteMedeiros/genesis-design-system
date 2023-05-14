@@ -7,7 +7,7 @@ interface TokensGridProps {
 
 export function TokensGrid({ tokens, hasRemValue = false }: TokensGridProps) {
   return (
-    <table>
+    <table className="tokens-grid">
       <thead>
         <tr>
           <th>Name</th>
@@ -22,7 +22,9 @@ export function TokensGrid({ tokens, hasRemValue = false }: TokensGridProps) {
             <tr key={key}>
               <td>{key}</td>
               <td>{value}</td>
-              {hasRemValue && <td>{Number(value.replace("rem", "")) * 16}</td>}
+              {hasRemValue && (
+                <td>{Number(value.replace("rem", "")) * 16}px</td>
+              )}
             </tr>
           )
         })}
