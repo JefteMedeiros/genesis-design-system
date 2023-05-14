@@ -1,7 +1,7 @@
 import { ReactNode } from "react"
 import * as AlertDialogComponent from "@radix-ui/react-alert-dialog"
 
-import { Button } from "Button/Button"
+import { Button } from "components/Button/Button"
 
 interface AlertDialogProps {
   trigger: string

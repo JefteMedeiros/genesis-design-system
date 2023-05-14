@@ -1,3 +1,5 @@
 {
-  "extends": "@saurs/eslint-config/react"
+  "extends": [
+    "@saurs/eslint-config/react"
+  ]
 }
